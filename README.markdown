@@ -39,9 +39,9 @@ The template engine used is [node-jqtpl](https://github.com/kof/node-jqtpl) by [
 a custom sidebar file allows you to define a custom placeholder that you can later use in your templates, heavily inspired by [gollum](http://github.com/github/gollum). It's not as brilliant and is roughly implemented but you can use a custom `_sidebar.markdown` file in `artciles` folder, its content would be available in your template files like so:
 
     {{if has_sidebar}}
-    <div class="article-sidebar">
+    <aside class="article-sidebar">
       {{html sidebar}}
-    </div>
+    </aside>
     {{/if}}
 
 ## A bit of configuration
