@@ -1,0 +1,22 @@
+{
+  "author": "Mickaël Daniel (http://github.com/mklabs/)",
+  "name": "yabe",
+  "description": "Yet Another Blog Engine. A simple blog engine inspired by the wheat project of creationix (Tim Caswell)",
+  "version": "0.2.0",
+  "homepage": "http://github.com/mklabs/node-yabe/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mklabs/node-yabe.git"
+  },
+  "main": "lib/node-yabe.js",
+  "engines": {
+    "node": "~v0.4.7"
+  },
+  "dependencies": {
+  	"connect":">=1.2.1",
+  	"mime":">=1.2.1",
+  	"github-flavored-markdown":">=1.0.0",
+  	"git-fs":">=0.0.6"
+  	},
+  "devDependencies": {}
+}
